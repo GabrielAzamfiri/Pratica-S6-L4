@@ -73,6 +73,15 @@ $theme-colors: map-merge($theme-colors, $add-colors);
 
 // ****************** breakpoints*******************************
 
+// $custom-spacers: (
+//   6: 6rem,
+//   7: 7rem,
+//   8: 8rem,
+//   9: 9rem,
+//   10: 10rem
+// );
+// $spacers: map-merge($spacers, $custom-spacers);
+
 $additional-grid-breakpoints: (3-xl: 1600px, 4-xl: 1800px);
 $grid-breakpoints: map-merge($grid-breakpoints, $additional-grid-breakpoints);
 
